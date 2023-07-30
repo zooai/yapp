@@ -15,7 +15,7 @@
         ]]>
       </description>
       <pubDate>2023-06-28</pubDate>
-      <releaseNotesLink>https://github.com/p0deje/ZooAI/releases/tag/0.26.5</releaseNotesLink>
+      <releaseNotesLink>https://github.com/zeekay/ZooAI/releases/tag/0.26.5</releaseNotesLink>
       <sparkle:minimumSystemVersion>10.14</sparkle:minimumSystemVersion>
       <enclosure
         url="https://github.com/zoo-labs/zooAI/releases/download/0.26.5/ZooAI.app.zip"

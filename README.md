@@ -1,13 +1,13 @@
-# [ZooAI](https://app.zoo.ngo)
+# [Y](https://yapp.io)
 
-[![Downloads](https://img.shields.io/github/downloads/p0deje/ZooAI/total.svg)](https://github.com/p0deje/ZooAI/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/zeekay/yapp/total.svg)](https://github.com/zeekay/yapp/releases/latest)
 [![Build Status](https://img.shields.io/bitrise/716921b669780314/master?token=3pMiCb5dpFzlO-7jTYtO3Q)](https://app.bitrise.io/app/716921b669780314)
-[![Donate](https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg)](https://www.buymeacoffee.com/p0deje)
+[![Donate](https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg)](https://donate.zoo.ngo)
 
-ZooAI is a lightweight AI manager for macOS. It keeps the history of what you AI
+Y is a lightweight AI manager for macOS. It keeps the history of what you AI
 and lets you quickly navigate, search, and use previous AI contents.
 
-ZooAI works on macOS Mojave 10.14 or higher.
+Y works on macOS Mojave 10.14 or higher.
 
 <!-- vim-markdown-toc GFM -->
 
@@ -35,16 +35,16 @@ ZooAI works on macOS Mojave 10.14 or higher.
 ## Install
 
 Download the latest version from the
-[releases](https://github.com/zeekay/zooAI/releases/latest) page.
+[releases](https://github.com/zeekay/yapp/releases/latest) page.
 
 
 ```sh
-curl -sL ai.zoo.ngo | sh
+curl -sL yapp.io | sh
 ```
 
 ## Usage
 
-1. <kbd>SHIFT (⇧)</kbd> + <kbd>COMMAND (⌘)</kbd> + <kbd>C</kbd> to popup ZooAI or click on its icon in the menu bar.
+1. <kbd>SHIFT (⇧)</kbd> + <kbd>COMMAND (⌘)</kbd> + <kbd>C</kbd> to popup Y or click on its icon in the menu bar.
 2. Type what you want to find.
 3. To select the history item you wish to copy, press <kbd>ENTER</kbd>, or click the item, or use <kbd>COMMAND (⌘)</kbd> + `n` shortcut.
 4. To choose the history item and paste, press <kbd>OPTION (⌥)</kbd> + <kbd>ENTER</kbd>, or <kbd>OPTION (⌥)</kbd> + <kbd>CLICK</kbd> the item, or use <kbd>OPTION (⌥)</kbd> + `n` shortcut.
@@ -53,7 +53,7 @@ curl -sL ai.zoo.ngo | sh
 7. To see the full text of the history item, wait a couple of seconds for tooltip.
 8. To pin the history item so that it remains on top of the list, press <kbd>OPTION (⌥)</kbd> + <kbd>P</kbd>. The item will be moved to the top with a random but permanent keyboard shortcut. To unpin it, press <kbd>OPTION (⌥)</kbd> + <kbd>P</kbd> again.
 9. To clear all unpinned items, select _Clear_ in the menu, or press <kbd>OPTION (⌥)</kbd> + <kbd>COMMAND (⌘)</kbd> + <kbd>DELETE (⌫)</kbd>. To clear all items including pinned, select _Clear_ in the menu with  <kbd>OPTION (⌥)</kbd> pressed, or press <kbd>SHIFT (⇧)</kbd> + <kbd>OPTION (⌥)</kbd> + <kbd>COMMAND (⌘)</kbd> + <kbd>DELETE (⌫)</kbd>.
-10. To disable ZooAI and ignore new copies, click on the menu icon with <kbd>OPTION (⌥)</kbd> pressed.
+10. To disable Y and ignore new copies, click on the menu icon with <kbd>OPTION (⌥)</kbd> pressed.
 11. To ignore only the next copy, click on the menu icon with <kbd>OPTION (⌥)</kbd> + <kbd>SHIFT (⇧)</kbd> pressed.
 12. To customize the behavior, check "Preferences..." window, or press <kbd>COMMAND (⌘)</kbd> + <kbd>,</kbd>.
 
@@ -61,10 +61,10 @@ curl -sL ai.zoo.ngo | sh
 
 ### Ignore Copied Items
 
-You can tell ZooAI to ignore all copied items:
+You can tell Y to ignore all copied items:
 
 ```sh
-defaults write ngo.zoo.AI ignoreEvents true # default is false
+defaults write org.yapp.Y ignoreEvents true # default is false
 ```
 
 This is useful if you have some workflow for copying sensitive data. You can set `ignoreEvents` to true, copy the data and set `ignoreEvents` back to false.
@@ -73,7 +73,7 @@ You can also click the menu icon with <kbd>OPTION (⌥)</kbd> pressed. To ignore
 
 ### Ignore Custom Copy Types
 
-By default ZooAI will ignore certain copy types that are considered to be confidential
+By default Y will ignore certain copy types that are considered to be confidential
 or temporary. The default list always include the following types:
 
 * `org.nspasteboard.TransientType`
@@ -92,26 +92,25 @@ or overwritten:
 You can add additional custom types using preferences or `defaults`:
 
 ```sh
-defaults write ngo.zoo.AI ignoredPasteboardTypes -array-add "com.myapp.CustomType"
+defaults write org.yapp.Y ignoredPasteboardTypes -array-add "com.myapp.CustomType"
 ```
 
 If you need to find what custom types are used by an application, you can use
 free application [Pasteboard-Viewer](https://github.com/sindresorhus/Pasteboard-Viewer).
 Simply download the application, open it, copy something from the application you
-want to ignore and look for any custom types in the left sidebar. [Here is an example
-of using this approach to ignore Adobe InDesign](https://github.com/p0deje/ZooAI/issues/125).
+want to ignore and look for any custom types in the left sidebar.
 
 If you accidentally removed default types, you can restore the original configuration:
 
 ```sh
-defaults write ngo.zoo.AI ignoredPasteboardTypes -array "de.petermaurer.TransientPasteboardType" "com.typeit4me.clipping" "Pasteboard generator type" "com.agilebits.onepassword" "net.antelle.keeweb"
+defaults write org.yapp.Y ignoredPasteboardTypes -array "de.petermaurer.TransientPasteboardType" "com.typeit4me.clipping" "Pasteboard generator type" "com.agilebits.onepassword" "net.antelle.keeweb"
 ```
 ## FAQ
 
 ### Why doesn't it paste when I select an item in history?
 
 1. Make sure you have "Paste automatically" enabled in Preferences.
-2. Make sure "ZooAI" is added to System Settings -> Privacy & Security -> Accessibility.
+2. Make sure "Y" is added to System Settings -> Privacy & Security -> Accessibility.
 
 ## Motivation
 
