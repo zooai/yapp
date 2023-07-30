@@ -7,6 +7,9 @@
 Y is a lightweight AI manager for macOS. It keeps the history of what you AI
 and lets you quickly navigate, search, and use previous AI contents.
 
+Thanks to integration with Claude and Langchain, users can easily access
+best-in-class API straight from the clipboard.
+
 Y works on macOS Mojave 10.14 or higher.
 
 <!-- vim-markdown-toc GFM -->
