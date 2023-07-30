@@ -1,5 +1,6 @@
-<img width="200px" src="/Designs/YBird.gif" alt="Logo" align="left" />
-<br>
+<p align="center">
+  <img width="200px" src="/Designs/YBird.gif" alt="YBird" />
+</p>
 
 # [Y](https://yapp.io)
 
