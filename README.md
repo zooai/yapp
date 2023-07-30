@@ -1,5 +1,3 @@
-<img width="128px" src="https://maccy.app/img/maccy/Logo.png" alt="Logo" align="left" />
-
 # [ZooAI](https://app.zoo.ngo)
 
 [![Downloads](https://img.shields.io/github/downloads/p0deje/ZooAI/total.svg)](https://github.com/p0deje/ZooAI/releases/latest)
