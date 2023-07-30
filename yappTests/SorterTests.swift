@@ -1,5 +1,5 @@
 import XCTest
-@testable import ZooAI
+@testable import YApp
 
 class SorterTests: XCTestCase {
   let savedPinTo = UserDefaults.standard.pinTo

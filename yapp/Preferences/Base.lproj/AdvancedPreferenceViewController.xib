@@ -6,7 +6,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <customObject id="-2" userLabel="File's Owner" customClass="AdvancedPreferenceViewController" customModule="Y" customModuleProvider="target">
+        <customObject id="-2" userLabel="File's Owner" customClass="AdvancedPreferenceViewController" customModule="YApp" customModuleProvider="target">
             <connections>
                 <outlet property="avoidTakingFocusButton" destination="4MH-H4-Ce2" id="iHM-Ux-GrT"/>
                 <outlet property="clearOnQuitButton" destination="O2y-qd-u6c" id="awd-Ep-Rex"/>
@@ -70,9 +70,9 @@ You are likely to use it programmatically and disable application while copying 
                                 <rect key="frame" x="-2" y="311" width="402" height="33"/>
                                 <textFieldCell key="cell" selectable="YES" id="LFh-6b-GFi">
                                     <font key="font" size="10" name="Menlo-Regular"/>
-                                    <string key="title">defaults write org.zeekay.Y ignoreEvents true
+                                    <string key="title">defaults write org.zeekay.YApp ignoreEvents true
 # copy data
-defaults write org.zeekay.Y ignoreEvents false</string>
+defaults write org.zeekay.YApp ignoreEvents false</string>
                                     <color key="textColor" name="systemGrayColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
@@ -110,7 +110,7 @@ defaults write org.zeekay.Y ignoreEvents false</string>
                                 <rect key="frame" x="-2" y="142" width="402" height="84"/>
                                 <textFieldCell key="cell" selectable="YES" id="Y8y-xQ-lFm">
                                     <font key="font" metaFont="controlContent" size="11"/>
-                                    <string key="title">Y takes an active application focus when the popup is shown and gives focus back when it's closed. The focus is needed for advanced macOS input handling such as Chinese helper or accent menu. Enabling this option would prevent Y from taking focus. There are certain situations when this can be useful: for example, pasting to a text editor that auto-formats code when it loses focus.</string>
+                                    <string key="title">YApp takes an active application focus when the popup is shown and gives focus back when it's closed. The focus is needed for advanced macOS input handling such as Chinese helper or accent menu. Enabling this option would prevent YApp from taking focus. There are certain situations when this can be useful: for example, pasting to a text editor that auto-formats code when it loses focus.</string>
                                     <color key="textColor" name="systemGrayColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>

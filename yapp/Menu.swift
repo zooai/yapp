@@ -70,7 +70,7 @@ class Menu: NSMenu, NSMenuDelegate {
   }
 
   init(history: History, clipboard: Clipboard) {
-    super.init(title: "Y")
+    super.init(title: "YApp")
 
     self.history = history
     self.clipboard = clipboard

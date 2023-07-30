@@ -96,7 +96,7 @@ class HistoryItem: NSManagedObject {
     return Int(modified)
   }
 
-  var fromY: Bool { contentData([.fromY]) != nil }
+  var fromYApp: Bool { contentData([.fromYApp]) != nil }
 
   private let filePasteboardTypes: [NSPasteboard.PasteboardType] = [.fileURL]
   private let htmlPasteboardTypes: [NSPasteboard.PasteboardType] = [.html]
@@ -148,7 +148,7 @@ class HistoryItem: NSManagedObject {
       .filter { content in
         ![
           NSPasteboard.PasteboardType.modified.rawValue,
-          NSPasteboard.PasteboardType.fromY.rawValue
+          NSPasteboard.PasteboardType.fromYApp.rawValue
         ].contains(content.type)
       }
       .allSatisfy { content in

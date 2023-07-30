@@ -2,7 +2,7 @@
 tasks = ["interfaces", "normalize"]
 
 [update.interfaces]
-paths = ["ZooAI"]
+paths = ["YApp"]
 subpathsToIgnore = [".git", "carthage", "pods", "build", ".build", "docs"]
 defaultToBase = false
 ignoreEmptyStrings = false
@@ -10,7 +10,7 @@ unstripped = false
 ignoreKeys = ["#bartycrouch-ignore!", "#bc-ignore!", "#i!"]
 
 [update.normalize]
-paths = ["ZooAI"]
+paths = ["YApp"]
 subpathsToIgnore = [".git", "carthage", "pods", "build", ".build", "docs"]
 sourceLocale = "en"
 harmonizeWithSource = true
@@ -19,7 +19,7 @@ separateWithEmptyLine = false
 overrideComments = false
 
 [lint]
-paths = ["ZooAI"]
+paths = ["YApp"]
 subpathsToIgnore = [".git", "carthage", "pods", "build", ".build", "docs"]
 duplicateKeys = true
 emptyValues = true

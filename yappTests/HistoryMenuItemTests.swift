@@ -1,5 +1,5 @@
 import XCTest
-@testable import ZooAI
+@testable import YApp
 
 class HistoryMenuItemTests: XCTestCase {
   let boldFont = NSFont.boldSystemFont(ofSize: NSFont.systemFontSize)

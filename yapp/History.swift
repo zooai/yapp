@@ -29,7 +29,7 @@ class History {
       item.numberOfCopies += existingHistoryItem.numberOfCopies
       item.pin = existingHistoryItem.pin
       item.title = existingHistoryItem.title
-      if !item.fromY {
+      if !item.fromYApp {
         item.application = existingHistoryItem.application
       }
       remove(existingHistoryItem)

@@ -1,5 +1,5 @@
 import XCTest
-@testable import ZooAI
+@testable import YApp
 
 // swiftlint:disable force_try
 class HistoryItemTests: XCTestCase {

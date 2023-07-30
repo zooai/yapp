@@ -10,7 +10,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
   @IBOutlet weak var pasteMenuItem: NSMenuItem!
 
   private var hotKey: GlobalHotKey!
-  private var yapp: Y!
+  private var yapp: YApp!
 
   func applicationWillFinishLaunching(_ notification: Notification) {
     if ProcessInfo.processInfo.arguments.contains("ui-testing") {
@@ -27,7 +27,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     migrateUserDefaults()
     clearOrphanRecords()
 
-    yapp = Y()
+    yapp = YApp()
     hotKey = GlobalHotKey(yapp.popUp)
   }
 

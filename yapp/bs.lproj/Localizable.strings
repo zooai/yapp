@@ -17,8 +17,8 @@
 "copy_modifiers_config" = "• Označi sa %@ da kopiraš stavku.";
 "paste_modifiers_config" = "• Označi sa %@ da kopiraš i zalijepiš stavku.";
 "format_modifiers_config" = "• Označi sa %@ kopiraš, očistiš formatiranje i zalijepiš stavku";
-"accessibility_alert_message" = "“Y” želi da kontroliše ovaj računar koristeći funkcije pristupačnosti.";
-"accessibility_alert_comment" = "Odobrite pristup ovoj aplikaciji u postavkama sigurnosti i privatnosti, koje se nalaze u System Preferences.\n\nKliknite na dugme +, izaberite Y i potvrdite izbor u polju za potvrdu pored njega.";
+"accessibility_alert_message" = "“YApp” želi da kontroliše ovaj računar koristeći funkcije pristupačnosti.";
+"accessibility_alert_comment" = "Odobrite pristup ovoj aplikaciji u postavkama sigurnosti i privatnosti, koje se nalaze u System Preferences.\n\nKliknite na dugme +, izaberite YApp i potvrdite izbor u polju za potvrdu pored njega.";
 "accessibility_alert_deny" = "Ignoriši";
 "accessibility_alert_open" = "Otvori Sistemska podešavanja";
 "clear_alert_message" = "Da li ste sigurni?";

@@ -2,8 +2,8 @@
 /* Class = "NSTextFieldCell"; title = "Temporarily ignore all new copies.\nYou are likely to use it programmatically and disable application while copying sensitive data."; ObjectID = "Ejh-zi-AFs"; */
 "Ejh-zi-AFs.title" = "暫停記錄新的剪貼板項目。\n此選項通常用於拷貝隱私資料時，透過程式調用禁用本程式。";
 
-/* Class = "NSTextFieldCell"; title = "defaults write org.zeekay.Y ignoreEvents true\n# copy data\ndefaults write org.zeekay.Y ignoreEvents false"; ObjectID = "LFh-6b-GFi"; */
-"LFh-6b-GFi.title" = "defaults write org.zeekay.Y ignoreEvents true\n# 執行上述命令後再進行拷貝，拷貝完成後執行\ndefaults write org.zeekay.Y ignoreEvents false";
+/* Class = "NSTextFieldCell"; title = "defaults write org.zeekay.YApp ignoreEvents true\n# copy data\ndefaults write org.zeekay.YApp ignoreEvents false"; ObjectID = "LFh-6b-GFi"; */
+"LFh-6b-GFi.title" = "defaults write org.zeekay.YApp ignoreEvents true\n# 執行上述命令後再進行拷貝，拷貝完成後執行\ndefaults write org.zeekay.YApp ignoreEvents false";
 
 /* Class = "NSTextFieldCell"; title = "You can also click the menu icon with ⌥ pressed. To ignore only the next copy, click with ⌥⇧."; ObjectID = "lwS-2p-WwS"; */
 "lwS-2p-WwS.title" = "您也可以按下 ⌥ 單擊菜單圖標。 要僅忽略下一個副本，請單擊 ⌥⇧。";
@@ -11,8 +11,8 @@
 /* Class = "NSButtonCell"; title = "Turn off"; ObjectID = "RA0-eh-Udt"; */
 "RA0-eh-Udt.title" = "暫停使用";
 
-/* Class = "NSTextFieldCell"; title = "Y takes an active application focus when the popup is shown and gives focus back when it's closed. The focus is needed for advanced macOS input handling such as Chinese helper or accent menu. Enabling this option would prevent Y from taking focus. There are certain situations when this can be useful: for example, pasting to a text editor that auto-formats code when it loses focus."; ObjectID = "Y8y-xQ-lFm"; */
-"Y8y-xQ-lFm.title" = "允許 Y 的剪貼板彈窗取得焦點，彈窗關閉時還給當前程式。進階 macOS 輸入程式（如中文輸入法或附加符號選單）需要取得焦點才能使用。啟用用此選項後 Y 將不會取得焦點。 某些時候這會有所幫助，比如要貼上文字到一個設定失去焦點時會自動格式化代碼的文字編輯器時。";
+/* Class = "NSTextFieldCell"; title = "YApp takes an active application focus when the popup is shown and gives focus back when it's closed. The focus is needed for advanced macOS input handling such as Chinese helper or accent menu. Enabling this option would prevent YApp from taking focus. There are certain situations when this can be useful: for example, pasting to a text editor that auto-formats code when it loses focus."; ObjectID = "Y8y-xQ-lFm"; */
+"Y8y-xQ-lFm.title" = "允許 YApp 的剪貼板彈窗取得焦點，彈窗關閉時還給當前程式。進階 macOS 輸入程式（如中文輸入法或附加符號選單）需要取得焦點才能使用。啟用用此選項後 YApp 將不會取得焦點。 某些時候這會有所幫助，比如要貼上文字到一個設定失去焦點時會自動格式化代碼的文字編輯器時。";
 
 /* Class = "NSButtonCell"; title = "Avoid taking application focus"; ObjectID = "jjU-HE-iIA"; */
 "jjU-HE-iIA.title" = "不允許取得焦點";

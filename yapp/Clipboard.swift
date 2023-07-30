@@ -90,7 +90,7 @@ class Clipboard {
     for content in contents {
       pasteboard.setData(content.value, forType: NSPasteboard.PasteboardType(content.type))
     }
-    pasteboard.setString("", forType: .fromY)
+    pasteboard.setString("", forType: .fromYApp)
 
     if UserDefaults.standard.playSounds {
       NSSound(named: NSSound.Name("knock"))?.play()
@@ -102,7 +102,7 @@ class Clipboard {
   // Based on https://github.com/Clipy/Clipy/blob/develop/Clipy/Sources/Services/PasteService.swift.
   func paste() {
     guard accessibilityAllowed else {
-      Y.returnFocusToPreviousApp = false
+      YApp.returnFocusToPreviousApp = false
       // Show accessibility window async to allow menu to close.
       DispatchQueue.main.async(execute: showAccessibilityWindow)
       return
@@ -116,7 +116,7 @@ class Clipboard {
 
       // Force QWERTY keycode when keyboard layout switches to
       // QWERTY upon pressing ⌘ key (e.g. "Dvorak - QWERTY ⌘").
-      // See https://github.com/zeekay/Y/issues/482 for details.
+      // See https://github.com/zeekay/YApp/issues/482 for details.
       if KeyboardLayout.current.commandSwitchesToQWERTY && cmdFlag.contains(.maskCommand) {
         vCode = KeyChord.pasteKey.QWERTYKeyCode
       }
@@ -162,7 +162,7 @@ class Clipboard {
 
     // Reading types on NSPasteboard gives all the available
     // types - even the ones that are not present on the NSPasteboardItem.
-    // See https://github.com/zeekay/Y/issues/241.
+    // See https://github.com/zeekay/YApp/issues/241.
     if shouldIgnore(Set(pasteboard.types ?? [])) {
       return
     }
@@ -175,8 +175,8 @@ class Clipboard {
 
     // Some applications (BBEdit, Edge) add 2 items to pasteboard when copying
     // so it's better to merge all data into a single record.
-    // - https://github.com/zeekay/Y/issues/78
-    // - https://github.com/zeekay/Y/issues/472
+    // - https://github.com/zeekay/YApp/issues/78
+    // - https://github.com/zeekay/YApp/issues/472
     var contents: [HistoryItemContent] = []
     pasteboard.pasteboardItems?.forEach({ item in
       let types = Set(item.types)
@@ -244,6 +244,6 @@ class Clipboard {
         NSWorkspace.shared.open(url)
       }
     }
-    Y.returnFocusToPreviousApp = true
+    YApp.returnFocusToPreviousApp = true
   }
 }

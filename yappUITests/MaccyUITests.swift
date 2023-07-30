@@ -3,7 +3,7 @@ import XCTest
 
 // swiftlint:disable file_length
 // swiftlint:disable type_body_length
-class ZooAIUITests: XCTestCase {
+class YAppUITests: XCTestCase {
   let app = XCUIApplication()
   let pasteboard = NSPasteboard.general
 
@@ -388,7 +388,7 @@ class ZooAIUITests: XCTestCase {
 
   private func waitUntilPoppedUp() {
     if !app.menuItems.firstMatch.waitForExistence(timeout: 3) {
-      XCTFail("ZooAI did not pop up")
+      XCTFail("YApp did not pop up")
     }
   }
 
@@ -419,7 +419,7 @@ class ZooAIUITests: XCTestCase {
     waitTillClipboardCheck()
   }
 
-  // Default interval for ZooAI to check clipboard is 1 second
+  // Default interval for YApp to check clipboard is 1 second
   private func waitTillClipboardCheck() {
     usleep(1500000)
   }

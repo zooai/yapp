@@ -6,7 +6,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <customObject id="-2" userLabel="File's Owner" customClass="StoragePreferenceViewController" customModule="Y" customModuleProvider="target">
+        <customObject id="-2" userLabel="File's Owner" customClass="StoragePreferenceViewController" customModule="YApp" customModuleProvider="target">
             <connections>
                 <outlet property="sizeStepper" destination="GVm-Pb-Osd" id="Zuf-kU-vVM"/>
                 <outlet property="sizeTextField" destination="Net-9d-Fk3" id="mAo-Hx-kVR"/>

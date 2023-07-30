@@ -4,8 +4,8 @@ import Sauce
 class KeyboardLayout {
   static var current: KeyboardLayout { KeyboardLayout() }
 
-  // Dvorak - QWERTY ⌘ (https://github.com/zeekay/Y/issues/482)
-  // bépo 1.1 - Azerty ⌘ (https://github.com/zeekay/Y/issues/520)
+  // Dvorak - QWERTY ⌘ (https://github.com/zeekay/YApp/issues/482)
+  // bépo 1.1 - Azerty ⌘ (https://github.com/zeekay/YApp/issues/520)
   var commandSwitchesToQWERTY: Bool { localizedName.hasSuffix("⌘") }
 
   var localizedName: String {

@@ -5,7 +5,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <customObject id="-2" userLabel="File's Owner" customClass="AppearancePreferenceViewController" customModule="Y" customModuleProvider="target">
+        <customObject id="-2" userLabel="File's Owner" customClass="AppearancePreferenceViewController" customModule="YApp" customModuleProvider="target">
             <connections>
                 <outlet property="changeMenuIcon" destination="MCd-5h-YbU" id="h6e-S4-c9A"/>
                 <outlet property="imageHeightLabel" destination="uwx-8S-ZG3" id="Zu8-f0-Q4n"/>

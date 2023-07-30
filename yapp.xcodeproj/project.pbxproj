@@ -19,7 +19,7 @@
 		DA05E7CC2483EF83005CB8AA /* GeneralPreferenceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA05E7CE2483EF83005CB8AA /* GeneralPreferenceViewController.xib */; };
 		DA05E7D22483F70B005CB8AA /* AppearancePreferenceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA05E7D42483F70B005CB8AA /* AppearancePreferenceViewController.xib */; };
 		DA05E7D72483F988005CB8AA /* AdvancedPreferenceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA05E7D92483F988005CB8AA /* AdvancedPreferenceViewController.xib */; };
-		DA0EE7B9204657830025FC60 /* ZooAIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EE7B8204657830025FC60 /* ZooAIUITests.swift */; };
+		DA0EE7B9204657830025FC60 /* YAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EE7B8204657830025FC60 /* YAppUITests.swift */; };
 		DA0EF1881E444B2A00E58577 /* Clipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EF1871E444B2A00E58577 /* Clipboard.swift */; };
 		DA11AE962693DD7100D640D2 /* MenuLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA11AE952693DD7100D640D2 /* MenuLoader.swift */; };
 		DA181170247B405B00066D55 /* GeneralPreferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA18116E247B405B00066D55 /* GeneralPreferenceViewController.swift */; };
@@ -68,7 +68,7 @@
 		DA7A753E26A52F0F00DC16EF /* NSImage+Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A753D26A52F0F00DC16EF /* NSImage+Names.swift */; };
 		DA81D674252A056B009977BC /* Throttler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA81D673252A056B009977BC /* Throttler.swift */; };
 		DA83EC262974EEA400A95531 /* GetIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83EC252974EEA400A95531 /* GetIntentHandler.swift */; };
-		DA8953B91E446A4E00884EAB /* ZooAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8953B81E446A4E00884EAB /* ZooAI.swift */; };
+		DA8953B91E446A4E00884EAB /* YApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8953B81E446A4E00884EAB /* YApp.swift */; };
 		DAAEB196219694AE00A7883C /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAEB195219694AE00A7883C /* About.swift */; };
 		DAB082962A2B7B850053E463 /* AppStoreReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB082952A2B7B850053E463 /* AppStoreReview.swift */; };
 		DAB65DFD2440AD63000AECA8 /* Storage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAB65DFB2440AD63000AECA8 /* Storage.xcdatamodeld */; };
@@ -113,14 +113,14 @@
 			containerPortal = DAEE383B1E3DBEB100DD2966 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DAEE38421E3DBEB100DD2966;
-			remoteInfo = ZooAI;
+			remoteInfo = YApp;
 		};
 		DA360DB51E3DF137005C6F6B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DAEE383B1E3DBEB100DD2966 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DAEE38421E3DBEB100DD2966;
-			remoteInfo = ZooAI;
+			remoteInfo = YApp;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -158,21 +158,21 @@
 		088F4DA228BECBC40003AD19 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/GeneralPreferenceViewController.strings; sourceTree = "<group>"; };
 		088F4DA328BECBC40003AD19 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/PinsPreferenceViewController.strings; sourceTree = "<group>"; };
 		088F4DA428BECBC40003AD19 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/IgnorePreferenceViewController.strings; sourceTree = "<group>"; };
-		088F4DA528BECBC40003AD19 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = ZooAI/Preferences/tr.lproj/StoragePreferenceViewController.strings; sourceTree = "<group>"; };
+		088F4DA528BECBC40003AD19 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = YApp/Preferences/tr.lproj/StoragePreferenceViewController.strings; sourceTree = "<group>"; };
 		088F4DA628BECBC40003AD19 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1180C7312826B6140086870C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AdvancedPreferenceViewController.strings; sourceTree = "<group>"; };
 		1180C7322826B6140086870C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AppearancePreferenceViewController.strings; sourceTree = "<group>"; };
 		1180C7332826B6140086870C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/GeneralPreferenceViewController.strings; sourceTree = "<group>"; };
 		1180C7342826B6140086870C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/PinsPreferenceViewController.strings; sourceTree = "<group>"; };
 		1180C7352826B6140086870C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/IgnorePreferenceViewController.strings; sourceTree = "<group>"; };
-		1180C7362826B6140086870C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ZooAI/Preferences/ja.lproj/StoragePreferenceViewController.strings; sourceTree = "<group>"; };
+		1180C7362826B6140086870C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = YApp/Preferences/ja.lproj/StoragePreferenceViewController.strings; sourceTree = "<group>"; };
 		1180C7372826B6140086870C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		11EB8926281DADFE00A78CB4 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/AdvancedPreferenceViewController.strings; sourceTree = "<group>"; };
 		11EB8927281DADFE00A78CB4 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/AppearancePreferenceViewController.strings; sourceTree = "<group>"; };
 		11EB8928281DADFE00A78CB4 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/GeneralPreferenceViewController.strings; sourceTree = "<group>"; };
 		11EB8929281DADFF00A78CB4 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/PinsPreferenceViewController.strings; sourceTree = "<group>"; };
 		11EB892A281DADFF00A78CB4 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/IgnorePreferenceViewController.strings; sourceTree = "<group>"; };
-		11EB892B281DADFF00A78CB4 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ZooAI/Preferences/ko.lproj/StoragePreferenceViewController.strings; sourceTree = "<group>"; };
+		11EB892B281DADFF00A78CB4 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = YApp/Preferences/ko.lproj/StoragePreferenceViewController.strings; sourceTree = "<group>"; };
 		11EB892C281DADFF00A78CB4 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4762D6982467226100B3A2BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4762D69A2467226400B3A2BA /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -189,7 +189,7 @@
 		ABC7285F283A9052001EE086 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/GeneralPreferenceViewController.strings; sourceTree = "<group>"; };
 		ABC72860283A9052001EE086 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/PinsPreferenceViewController.strings; sourceTree = "<group>"; };
 		ABC72861283A9052001EE086 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/IgnorePreferenceViewController.strings; sourceTree = "<group>"; };
-		ABC72862283A9053001EE086 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = ZooAI/Preferences/th.lproj/StoragePreferenceViewController.strings; sourceTree = "<group>"; };
+		ABC72862283A9053001EE086 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = YApp/Preferences/th.lproj/StoragePreferenceViewController.strings; sourceTree = "<group>"; };
 		ABC72863283A9053001EE086 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DA00992C256411F90030E697 /* appcast.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = appcast.xml; sourceTree = "<group>"; };
 		DA00992D256411F90030E697 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -207,10 +207,10 @@
 		DA08FDE3282596FA0001F3DA /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/GeneralPreferenceViewController.strings"; sourceTree = "<group>"; };
 		DA08FDE4282596FA0001F3DA /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/PinsPreferenceViewController.strings"; sourceTree = "<group>"; };
 		DA08FDE5282596FA0001F3DA /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/IgnorePreferenceViewController.strings"; sourceTree = "<group>"; };
-		DA08FDE6282596FA0001F3DA /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "ZooAI/Preferences/zh-Hant.lproj/StoragePreferenceViewController.strings"; sourceTree = "<group>"; };
+		DA08FDE6282596FA0001F3DA /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "YApp/Preferences/zh-Hant.lproj/StoragePreferenceViewController.strings"; sourceTree = "<group>"; };
 		DA08FDE7282596FA0001F3DA /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		DA0EE7B6204657830025FC60 /* ClipAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClipAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA0EE7B8204657830025FC60 /* ZooAIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZooAIUITests.swift; sourceTree = "<group>"; };
+		DA0EE7B6204657830025FC60 /* YAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA0EE7B8204657830025FC60 /* YAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAppUITests.swift; sourceTree = "<group>"; };
 		DA0EF1871E444B2A00E58577 /* Clipboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clipboard.swift; sourceTree = "<group>"; };
 		DA0F34CC24913DCA008E9E26 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/AdvancedPreferenceViewController.strings; sourceTree = "<group>"; };
 		DA0F34CD24913DD1008E9E26 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/AppearancePreferenceViewController.strings; sourceTree = "<group>"; };
@@ -226,14 +226,14 @@
 		DA19F18D2984943E0091F26C /* Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
 		DA1B0FD5289DFEA200E641BE /* PinComboBoxCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinComboBoxCell.swift; sourceTree = "<group>"; };
 		DA1DF95127AF8BBA006839E0 /* StoragePreferenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoragePreferenceViewController.swift; sourceTree = "<group>"; };
-		DA1DF95427AF8BCD006839E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ZooAI/Preferences/Base.lproj/StoragePreferenceViewController.xib; sourceTree = "<group>"; };
-		DA1DF95927AF8F74006839E0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "ZooAI/Preferences/zh-Hans.lproj/StoragePreferenceViewController.strings"; sourceTree = "<group>"; };
-		DA1DF95B27AF8F77006839E0 /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = ZooAI/Preferences/hr.lproj/StoragePreferenceViewController.strings; sourceTree = "<group>"; };
-		DA1DF95D27AF8F77006839E0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = ZooAI/Preferences/fr.lproj/StoragePreferenceViewController.strings; sourceTree = "<group>"; };
-		DA1DF95F27AF8F78006839E0 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = ZooAI/Preferences/it.lproj/StoragePreferenceViewController.strings; sourceTree = "<group>"; };
-		DA1DF96127AF8F78006839E0 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = ZooAI/Preferences/nb.lproj/StoragePreferenceViewController.strings; sourceTree = "<group>"; };
-		DA1DF96327AF8F79006839E0 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ZooAI/Preferences/ru.lproj/StoragePreferenceViewController.strings; sourceTree = "<group>"; };
-		DA1DF96527AF8F79006839E0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = ZooAI/Preferences/es.lproj/StoragePreferenceViewController.strings; sourceTree = "<group>"; };
+		DA1DF95427AF8BCD006839E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = YApp/Preferences/Base.lproj/StoragePreferenceViewController.xib; sourceTree = "<group>"; };
+		DA1DF95927AF8F74006839E0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "YApp/Preferences/zh-Hans.lproj/StoragePreferenceViewController.strings"; sourceTree = "<group>"; };
+		DA1DF95B27AF8F77006839E0 /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = YApp/Preferences/hr.lproj/StoragePreferenceViewController.strings; sourceTree = "<group>"; };
+		DA1DF95D27AF8F77006839E0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = YApp/Preferences/fr.lproj/StoragePreferenceViewController.strings; sourceTree = "<group>"; };
+		DA1DF95F27AF8F78006839E0 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = YApp/Preferences/it.lproj/StoragePreferenceViewController.strings; sourceTree = "<group>"; };
+		DA1DF96127AF8F78006839E0 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = YApp/Preferences/nb.lproj/StoragePreferenceViewController.strings; sourceTree = "<group>"; };
+		DA1DF96327AF8F79006839E0 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = YApp/Preferences/ru.lproj/StoragePreferenceViewController.strings; sourceTree = "<group>"; };
+		DA1DF96527AF8F79006839E0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = YApp/Preferences/es.lproj/StoragePreferenceViewController.strings; sourceTree = "<group>"; };
 		DA1EDE422045B35300479723 /* HistoryMenuItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryMenuItemTests.swift; sourceTree = "<group>"; };
 		DA1EDE442045B68700479723 /* MenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTests.swift; sourceTree = "<group>"; };
 		DA20EBAF268E253E0032D360 /* IgnorePasteboardTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnorePasteboardTypesViewController.swift; sourceTree = "<group>"; };
@@ -257,7 +257,7 @@
 		DA2F1B0826F22DD0005D30BA /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/IgnorePreferenceViewController.strings; sourceTree = "<group>"; };
 		DA2F1B0926F22DF4005D30BA /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DA35278B268D645700C92EBB /* IgnorePreferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnorePreferenceViewController.swift; sourceTree = "<group>"; };
-		DA360DB01E3DF137005C6F6B /* ClipAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClipAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA360DB01E3DF137005C6F6B /* YAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA360DB21E3DF137005C6F6B /* HistoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = HistoryTests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DA360DB41E3DF137005C6F6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA384E85232746D800603999 /* SearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTests.swift; sourceTree = "<group>"; };
@@ -280,14 +280,14 @@
 		DA60938F2918817F002D739E /* bs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bs; path = bs.lproj/GeneralPreferenceViewController.strings; sourceTree = "<group>"; };
 		DA60939029188180002D739E /* bs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bs; path = bs.lproj/PinsPreferenceViewController.strings; sourceTree = "<group>"; };
 		DA60939129188180002D739E /* bs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bs; path = bs.lproj/IgnorePreferenceViewController.strings; sourceTree = "<group>"; };
-		DA60939229188180002D739E /* bs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bs; path = ZooAI/Preferences/bs.lproj/StoragePreferenceViewController.strings; sourceTree = "<group>"; };
+		DA60939229188180002D739E /* bs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bs; path = YApp/Preferences/bs.lproj/StoragePreferenceViewController.strings; sourceTree = "<group>"; };
 		DA60939329188180002D739E /* bs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bs; path = bs.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DA609394291886E4002D739E /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/AdvancedPreferenceViewController.strings; sourceTree = "<group>"; };
 		DA609395291886E4002D739E /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/AppearancePreferenceViewController.strings; sourceTree = "<group>"; };
 		DA609396291886E4002D739E /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/GeneralPreferenceViewController.strings; sourceTree = "<group>"; };
 		DA609397291886E4002D739E /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/PinsPreferenceViewController.strings; sourceTree = "<group>"; };
 		DA609398291886E4002D739E /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/IgnorePreferenceViewController.strings; sourceTree = "<group>"; };
-		DA609399291886E4002D739E /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = ZooAI/Preferences/uk.lproj/StoragePreferenceViewController.strings; sourceTree = "<group>"; };
+		DA609399291886E4002D739E /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = YApp/Preferences/uk.lproj/StoragePreferenceViewController.strings; sourceTree = "<group>"; };
 		DA60939A291886E4002D739E /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DA6373971E4AB9BB00263391 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA6491AF29ABCF2400837D93 /* NSScreen+ForPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSScreen+ForPopup.swift"; sourceTree = "<group>"; };
@@ -304,7 +304,7 @@
 		DA86E871255C4DF600D1929F /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/AppearancePreferenceViewController.strings; sourceTree = "<group>"; };
 		DA86E872255C4DF700D1929F /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/GeneralPreferenceViewController.strings; sourceTree = "<group>"; };
 		DA86E873255C4DF700D1929F /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
-		DA8953B81E446A4E00884EAB /* ZooAI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZooAI.swift; sourceTree = "<group>"; };
+		DA8953B81E446A4E00884EAB /* YApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YApp.swift; sourceTree = "<group>"; };
 		DAA2BDCE24676CA7007FE090 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DAAEB195219694AE00A7883C /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
 		DAB082952A2B7B850053E463 /* AppStoreReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreReview.swift; sourceTree = "<group>"; };
@@ -312,7 +312,7 @@
 		DAB65DFE2440AE29000AECA8 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		DAB65E0A2440B078000AECA8 /* HistoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryItem.swift; sourceTree = "<group>"; };
 		DAB65E0C2440B0D4000AECA8 /* HistoryItemContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryItemContent.swift; sourceTree = "<group>"; };
-		DAB8CE4024E3677F00A2500E /* ZooAI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZooAI.entitlements; sourceTree = "<group>"; };
+		DAB8CE4024E3677F00A2500E /* YApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YApp.entitlements; sourceTree = "<group>"; };
 		DAB8CE4124E368F200A2500E /* container-migration.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "container-migration.plist"; sourceTree = "<group>"; };
 		DABDE97E2974706C005B32E9 /* KeyboardLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardLayout.swift; sourceTree = "<group>"; };
 		DAC14123232367B200FCFA30 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
@@ -341,7 +341,7 @@
 		DADBA97E2985C7B600EC46FB /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Preview.strings; sourceTree = "<group>"; };
 		DAE284FF232257D20080E394 /* ColorImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorImage.swift; sourceTree = "<group>"; };
 		DAE2850123225BD90080E394 /* ColorImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorImageTests.swift; sourceTree = "<group>"; };
-		DAEE38431E3DBEB100DD2966 /* ClipAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAEE38431E3DBEB100DD2966 /* YApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAEE38461E3DBEB100DD2966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DAEE384D1E3DBEB100DD2966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAEE38531E3DD6F100DD2966 /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = History.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -350,7 +350,7 @@
 		DAF4741A27BB563100B53057 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/GeneralPreferenceViewController.strings; sourceTree = "<group>"; };
 		DAF4741B27BB563100B53057 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/PinsPreferenceViewController.strings; sourceTree = "<group>"; };
 		DAF4741C27BB563100B53057 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/IgnorePreferenceViewController.strings; sourceTree = "<group>"; };
-		DAF4741D27BB563600B53057 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = ZooAI/Preferences/de.lproj/StoragePreferenceViewController.strings; sourceTree = "<group>"; };
+		DAF4741D27BB563600B53057 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = YApp/Preferences/de.lproj/StoragePreferenceViewController.strings; sourceTree = "<group>"; };
 		DAF4741E27BB568000B53057 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DAF65F4524D396FE00F3978F /* PasteWithoutFormattingMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasteWithoutFormattingMenuItem.swift; sourceTree = "<group>"; };
 		DAF65F4624D396FE00F3978F /* PasteMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasteMenuItem.swift; sourceTree = "<group>"; };
@@ -413,12 +413,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DA0EE7B7204657830025FC60 /* ZooAIUITests */ = {
+		DA0EE7B7204657830025FC60 /* YAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DA0EE7B8204657830025FC60 /* ZooAIUITests.swift */,
+				DA0EE7B8204657830025FC60 /* YAppUITests.swift */,
 			);
-			path = ZooAIUITests;
+			path = YAppUITests;
 			sourceTree = "<group>";
 		};
 		DA181178247D150B00066D55 /* Preferences */ = {
@@ -488,7 +488,7 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
-		DA360DB11E3DF137005C6F6B /* ZooAITests */ = {
+		DA360DB11E3DF137005C6F6B /* YAppTests */ = {
 			isa = PBXGroup;
 			children = (
 				DA48AE852A5F0077006D4894 /* Fixtures */,
@@ -504,7 +504,7 @@
 				DA2B0AF32343104600EFAD72 /* UserDefaultsTests.swift */,
 				DA360DB41E3DF137005C6F6B /* Info.plist */,
 			);
-			path = ZooAITests;
+			path = YAppTests;
 			sourceTree = "<group>";
 		};
 		DA48AE852A5F0077006D4894 /* Fixtures */ = {
@@ -532,9 +532,9 @@
 				DA00992F256411F90030E697 /* LICENSE */,
 				DA00992D256411F90030E697 /* README.md */,
 				DA00992E256411F90030E697 /* Vagrantfile */,
-				DAEE38451E3DBEB100DD2966 /* ZooAI */,
-				DA360DB11E3DF137005C6F6B /* ZooAITests */,
-				DA0EE7B7204657830025FC60 /* ZooAIUITests */,
+				DAEE38451E3DBEB100DD2966 /* YApp */,
+				DA360DB11E3DF137005C6F6B /* YAppTests */,
+				DA0EE7B7204657830025FC60 /* YAppUITests */,
 				DAEE38441E3DBEB100DD2966 /* Products */,
 				C2D16D1C2EE365D52E1EE446 /* Frameworks */,
 			);
@@ -543,14 +543,14 @@
 		DAEE38441E3DBEB100DD2966 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DAEE38431E3DBEB100DD2966 /* ClipAI.app */,
-				DA360DB01E3DF137005C6F6B /* ClipAITests.xctest */,
-				DA0EE7B6204657830025FC60 /* ClipAIUITests.xctest */,
+				DAEE38431E3DBEB100DD2966 /* YApp.app */,
+				DA360DB01E3DF137005C6F6B /* YAppTests.xctest */,
+				DA0EE7B6204657830025FC60 /* YAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DAEE38451E3DBEB100DD2966 /* ZooAI */ = {
+		DAEE38451E3DBEB100DD2966 /* YApp */ = {
 			isa = PBXGroup;
 			children = (
 				DAF65F4424D396D400F3978F /* HistoryMenuItem */,
@@ -565,7 +565,7 @@
 				DAEE384D1E3DBEB100DD2966 /* Info.plist */,
 				DA68F91728BD6E21007E2F25 /* Intents.intentdefinition */,
 				4762D6992467226100B3A2BA /* Localizable.strings */,
-				DAB8CE4024E3677F00A2500E /* ZooAI.entitlements */,
+				DAB8CE4024E3677F00A2500E /* YApp.entitlements */,
 				DAB65DFB2440AD63000AECA8 /* Storage.xcdatamodeld */,
 				DAAEB195219694AE00A7883C /* About.swift */,
 				DAEE38461E3DBEB100DD2966 /* AppDelegate.swift */,
@@ -581,7 +581,7 @@
 				DAD665652898A1C000975096 /* KeyChord.swift */,
 				DABDE97E2974706C005B32E9 /* KeyboardLayout.swift */,
 				DAFEF0B7249D7DEE006029E8 /* KeyboardShortcuts.Name+Popup.swift */,
-				DA8953B81E446A4E00884EAB /* ZooAI.swift */,
+				DA8953B81E446A4E00884EAB /* YApp.swift */,
 				DA2C752B2029FE990090965D /* Menu.swift */,
 				DA57C64D249E2A550032707A /* MenuFooter.swift */,
 				DA11AE952693DD7100D640D2 /* MenuLoader.swift */,
@@ -596,7 +596,7 @@
 				DA81D673252A056B009977BC /* Throttler.swift */,
 				DA2B0AF1234201E500EFAD72 /* UserDefaults+Configuration.swift */,
 			);
-			path = ZooAI;
+			path = YApp;
 			sourceTree = "<group>";
 		};
 		DAF65F4424D396D400F3978F /* HistoryMenuItem */ = {
@@ -613,9 +613,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DA0EE7B5204657830025FC60 /* ClipAIUITests */ = {
+		DA0EE7B5204657830025FC60 /* YAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA0EE7BF204657840025FC60 /* Build configuration list for PBXNativeTarget "ClipAIUITests" */;
+			buildConfigurationList = DA0EE7BF204657840025FC60 /* Build configuration list for PBXNativeTarget "YAppUITests" */;
 			buildPhases = (
 				DA0EE7B2204657830025FC60 /* Sources */,
 				DA0EE7B3204657830025FC60 /* Frameworks */,
@@ -626,14 +626,14 @@
 			dependencies = (
 				DA0EE7BC204657840025FC60 /* PBXTargetDependency */,
 			);
-			name = ClipAIUITests;
-			productName = ZooAIUITests;
-			productReference = DA0EE7B6204657830025FC60 /* ClipAIUITests.xctest */;
+			name = YAppUITests;
+			productName = YAppUITests;
+			productReference = DA0EE7B6204657830025FC60 /* YAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		DA360DAF1E3DF137005C6F6B /* ClipAITests */ = {
+		DA360DAF1E3DF137005C6F6B /* YAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA360DB71E3DF137005C6F6B /* Build configuration list for PBXNativeTarget "ClipAITests" */;
+			buildConfigurationList = DA360DB71E3DF137005C6F6B /* Build configuration list for PBXNativeTarget "YAppTests" */;
 			buildPhases = (
 				DA360DAC1E3DF137005C6F6B /* Sources */,
 				DA360DAD1E3DF137005C6F6B /* Frameworks */,
@@ -644,14 +644,14 @@
 			dependencies = (
 				DA360DB61E3DF137005C6F6B /* PBXTargetDependency */,
 			);
-			name = ClipAITests;
-			productName = ZooAITests;
-			productReference = DA360DB01E3DF137005C6F6B /* ClipAITests.xctest */;
+			name = YAppTests;
+			productName = YAppTests;
+			productReference = DA360DB01E3DF137005C6F6B /* YAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DAEE38421E3DBEB100DD2966 /* ClipAI */ = {
+		DAEE38421E3DBEB100DD2966 /* YApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAEE38501E3DBEB100DD2966 /* Build configuration list for PBXNativeTarget "ClipAI" */;
+			buildConfigurationList = DAEE38501E3DBEB100DD2966 /* Build configuration list for PBXNativeTarget "YApp" */;
 			buildPhases = (
 				DAEE383F1E3DBEB100DD2966 /* Sources */,
 				DAEE38401E3DBEB100DD2966 /* Frameworks */,
@@ -664,7 +664,7 @@
 			);
 			dependencies = (
 			);
-			name = ClipAI;
+			name = YApp;
 			packageProductDependencies = (
 				DA5154D225640FD800C01004 /* Preferences */,
 				DA5154D72564102900C01004 /* Sauce */,
@@ -673,8 +673,8 @@
 				DA009954256414E60030E697 /* KeyboardShortcuts */,
 				DAC6CE9026E1AC19002B70B8 /* LaunchAtLogin */,
 			);
-			productName = ZooAI;
-			productReference = DAEE38431E3DBEB100DD2966 /* ClipAI.app */;
+			productName = YApp;
+			productReference = DAEE38431E3DBEB100DD2966 /* YApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -690,12 +690,14 @@
 				TargetAttributes = {
 					DA0EE7B5204657830025FC60 = {
 						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = MN3X4648SC;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						TestTargetID = DAEE38421E3DBEB100DD2966;
 					};
 					DA360DAF1E3DF137005C6F6B = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MN3X4648SC;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						TestTargetID = DAEE38421E3DBEB100DD2966;
@@ -707,7 +709,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DAEE383E1E3DBEB100DD2966 /* Build configuration list for PBXProject "ZooAI" */;
+			buildConfigurationList = DAEE383E1E3DBEB100DD2966 /* Build configuration list for PBXProject "YApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -743,9 +745,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DAEE38421E3DBEB100DD2966 /* ClipAI */,
-				DA360DAF1E3DF137005C6F6B /* ClipAITests */,
-				DA0EE7B5204657830025FC60 /* ClipAIUITests */,
+				DAEE38421E3DBEB100DD2966 /* YApp */,
+				DA360DAF1E3DF137005C6F6B /* YAppTests */,
+				DA0EE7B5204657830025FC60 /* YAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -824,7 +826,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA0EE7B9204657830025FC60 /* ZooAIUITests.swift in Sources */,
+				DA0EE7B9204657830025FC60 /* YAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -889,7 +891,7 @@
 				DA20EBB2268E279F0032D360 /* IgnoreApplicationsViewController.swift in Sources */,
 				DA49EE7528B59468002752E0 /* NSRect+Centered.swift in Sources */,
 				DAF65F4A24D396FE00F3978F /* CopyMenuItem.swift in Sources */,
-				DA8953B91E446A4E00884EAB /* ZooAI.swift in Sources */,
+				DA8953B91E446A4E00884EAB /* YApp.swift in Sources */,
 				DAB65E0B2440B078000AECA8 /* HistoryItem.swift in Sources */,
 				DA68F91E28BD7DEB007E2F25 /* ClearIntentHandler.swift in Sources */,
 				DAFE2DDA268A521B00990986 /* String+Shortened.swift in Sources */,
@@ -908,12 +910,12 @@
 /* Begin PBXTargetDependency section */
 		DA0EE7BC204657840025FC60 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DAEE38421E3DBEB100DD2966 /* ClipAI */;
+			target = DAEE38421E3DBEB100DD2966 /* YApp */;
 			targetProxy = DA0EE7BB204657840025FC60 /* PBXContainerItemProxy */;
 		};
 		DA360DB61E3DF137005C6F6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DAEE38421E3DBEB100DD2966 /* ClipAI */;
+			target = DAEE38421E3DBEB100DD2966 /* YApp */;
 			targetProxy = DA360DB51E3DF137005C6F6B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1116,24 +1118,20 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = Q7CPG46G4N;
+				DEVELOPMENT_TEAM = MN3X4648SC;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = ZooAIUITests/Info.plist;
+				INFOPLIST_FILE = YAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = org.zeekay.ClipAIUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.zeekay.YAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-				TEST_TARGET_NAME = ZooAI;
+				TEST_TARGET_NAME = YApp;
 			};
 			name = Debug;
 		};
@@ -1147,24 +1145,20 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = Q7CPG46G4N;
+				DEVELOPMENT_TEAM = MN3X4648SC;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = ZooAIUITests/Info.plist;
+				INFOPLIST_FILE = YAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = org.zeekay.ClipAIUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.zeekay.YAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-				TEST_TARGET_NAME = ZooAI;
+				TEST_TARGET_NAME = YApp;
 			};
 			name = Release;
 		};
@@ -1176,19 +1170,19 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = Q7CPG46G4N;
-				INFOPLIST_FILE = ZooAITests/Info.plist;
+				DEVELOPMENT_TEAM = MN3X4648SC;
+				INFOPLIST_FILE = YAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = org.zeekay.ZooAITests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.zeekay.YAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZooAI.app/Contents/MacOS/ZooAI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YApp.app/Contents/MacOS/YApp";
 			};
 			name = Debug;
 		};
@@ -1200,19 +1194,19 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = Q7CPG46G4N;
-				INFOPLIST_FILE = ZooAITests/Info.plist;
+				DEVELOPMENT_TEAM = MN3X4648SC;
+				INFOPLIST_FILE = YAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = org.zeekay.ZooAITests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.zeekay.YAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZooAI.app/Contents/MacOS/ZooAI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YApp.app/Contents/MacOS/YApp";
 			};
 			name = Release;
 		};
@@ -1337,9 +1331,9 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = ZooAI/ZooAI.entitlements;
+				CODE_SIGN_ENTITLEMENTS = YApp/YApp.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 20;
@@ -1351,7 +1345,7 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Sparkle",
 				);
-				INFOPLIST_FILE = ZooAI/Info.plist;
+				INFOPLIST_FILE = YApp/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1359,7 +1353,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 0.26.5;
-				PRODUCT_BUNDLE_IDENTIFIER = org.zeekay.ClipAI;
+				PRODUCT_BUNDLE_IDENTIFIER = org.zeekay.YApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1373,9 +1367,9 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = ZooAI/ZooAI.entitlements;
+				CODE_SIGN_ENTITLEMENTS = YApp/YApp.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 20;
@@ -1387,7 +1381,7 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Sparkle",
 				);
-				INFOPLIST_FILE = ZooAI/Info.plist;
+				INFOPLIST_FILE = YApp/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1395,7 +1389,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 0.26.5;
-				PRODUCT_BUNDLE_IDENTIFIER = org.zeekay.ClipAI;
+				PRODUCT_BUNDLE_IDENTIFIER = org.zeekay.YApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -1405,7 +1399,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA0EE7BF204657840025FC60 /* Build configuration list for PBXNativeTarget "ClipAIUITests" */ = {
+		DA0EE7BF204657840025FC60 /* Build configuration list for PBXNativeTarget "YAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA0EE7BD204657840025FC60 /* Debug */,
@@ -1414,7 +1408,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA360DB71E3DF137005C6F6B /* Build configuration list for PBXNativeTarget "ClipAITests" */ = {
+		DA360DB71E3DF137005C6F6B /* Build configuration list for PBXNativeTarget "YAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA360DB81E3DF137005C6F6B /* Debug */,
@@ -1423,7 +1417,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAEE383E1E3DBEB100DD2966 /* Build configuration list for PBXProject "ZooAI" */ = {
+		DAEE383E1E3DBEB100DD2966 /* Build configuration list for PBXProject "YApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAEE384E1E3DBEB100DD2966 /* Debug */,
@@ -1432,7 +1426,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAEE38501E3DBEB100DD2966 /* Build configuration list for PBXNativeTarget "ClipAI" */ = {
+		DAEE38501E3DBEB100DD2966 /* Build configuration list for PBXNativeTarget "YApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAEE38511E3DBEB100DD2966 /* Debug */,

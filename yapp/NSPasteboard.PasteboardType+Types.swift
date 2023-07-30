@@ -9,9 +9,9 @@ extension NSPasteboard.PasteboardType {
   static let concealed = NSPasteboard.PasteboardType(rawValue: "org.nspasteboard.TransientType")
   static let transient = NSPasteboard.PasteboardType(rawValue: "org.nspasteboard.ConcealedType")
 
-  // https://github.com/zeekay/Y/issues/429#issuecomment-1182575226
+  // https://github.com/zeekay/YApp/issues/429#issuecomment-1182575226
   static let modified = NSPasteboard.PasteboardType(rawValue: "x.nspasteboard.ModifiedType")
 
-  // Marks that copy was made from Y.
-  static let fromY = NSPasteboard.PasteboardType(rawValue: "org.zeekay.Y")
+  // Marks that copy was made from YApp.
+  static let fromYApp = NSPasteboard.PasteboardType(rawValue: "org.zeekay.YApp")
 }

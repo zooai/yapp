@@ -3,9 +3,9 @@ import Intents
 @available(macOS 11.0, *)
 class SelectIntentHandler: NSObject, SelectIntentHandling {
   private let positionOffset = 1
-  private var yapp: Y!
+  private var yapp: YApp!
 
-  init(_ yapp: Y) {
+  init(_ yapp: YApp) {
     self.yapp = yapp
   }
 

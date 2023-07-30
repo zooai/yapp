@@ -41,7 +41,7 @@
 "bIP-Mi-SeJ.title" = "圖片預覽最高：{imageHeight}。\n預設: 40\n提示：設定 16 可符合文字項目大小。";
 
 /* Class = "NSButtonCell"; title = "Show title before search field"; ObjectID = "ePT-qq-kg9"; */
-"ePT-qq-kg9.title" = "搜尋列旁顯示 Y";
+"ePT-qq-kg9.title" = "搜尋列旁顯示 YApp";
 
 /* Class = "NSTextFieldCell"; title = "Number of items:"; ObjectID = "gjR-wz-7GQ"; */
 "gjR-wz-7GQ.title" = "東西的個數:";

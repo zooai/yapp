@@ -1,5 +1,5 @@
 import XCTest
-@testable import ZooAI
+@testable import YApp
 
 class SearchTests: XCTestCase {
   let savedSearchMode = UserDefaults.standard.searchMode

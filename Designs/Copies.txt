@@ -1,6 +1,6 @@
 Hello! 👋
-This is Y.
-Lightweight AI clipboard manager for Mac. 💻
+This is YApp.
+Lightweight clipboard manager for Mac. 💻
 Search as you type. 🔍
 Open source. ⚙️
 No fluff! 😛

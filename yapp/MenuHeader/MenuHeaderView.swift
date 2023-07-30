@@ -223,11 +223,11 @@ class MenuHeaderView: NSView, NSSearchFieldDelegate {
       return false
     }
 
-    // Sometimes even though we attempt to activate Y,
+    // Sometimes even though we attempt to activate YApp,
     // it doesn't get active. This happens particularly with
     // password fields in Safari. Let's at least allow
     // search to work in these cases.
-    // See https://github.com/zeekay/Y/issues/473.
+    // See https://github.com/zeekay/YApp/issues/473.
     if UserDefaults.standard.avoidTakingFocus || !NSApp.isActive {
       // append character to the search field to trigger
       // and stop event from being propagated
@@ -244,7 +244,7 @@ class MenuHeaderView: NSView, NSSearchFieldDelegate {
   private func focusQueryField() {
     // If the field is already focused, there is no need for force-focus it.
     // Worse, it breaks Korean input handling.
-    // See https://github.com/zeekay/Y/issues/476 for details.
+    // See https://github.com/zeekay/YApp/issues/476 for details.
     guard queryField.currentEditor() == nil else {
       return
     }

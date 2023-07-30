@@ -5,7 +5,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <customObject id="-2" userLabel="File's Owner" customClass="GeneralPreferenceViewController" customModule="Y" customModuleProvider="target">
+        <customObject id="-2" userLabel="File's Owner" customClass="GeneralPreferenceViewController" customModule="YApp" customModuleProvider="target">
             <connections>
                 <outlet property="hotkeyContainerView" destination="gv6-rV-zkI" id="nuk-d3-lAf"/>
                 <outlet property="launchAtLoginButton" destination="mOE-Th-WLC" id="taH-LL-vsV"/>

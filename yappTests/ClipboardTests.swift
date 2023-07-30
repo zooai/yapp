@@ -1,5 +1,5 @@
 import XCTest
-@testable import ZooAI
+@testable import YApp
 
 // swiftlint:disable type_body_length
 class ClipboardTests: XCTestCase {
@@ -214,7 +214,7 @@ class ClipboardTests: XCTestCase {
     XCTAssertEqual(pasteboard.string(forType: .string), "foo")
     XCTAssertEqual(pasteboard.data(forType: .tiff), imageData)
     XCTAssertEqual(pasteboard.string(forType: .fileURL), "file://foo.bar")
-    XCTAssertEqual(pasteboard.string(forType: .fromZooAI), "")
+    XCTAssertEqual(pasteboard.string(forType: .fromYApp), "")
   }
 
   func testCopyWithoutFormatting() {
@@ -226,7 +226,7 @@ class ClipboardTests: XCTestCase {
     ])
     clipboard.copy(item, removeFormatting: true)
     XCTAssertEqual(pasteboard.string(forType: .string), "foo")
-    XCTAssertEqual(pasteboard.string(forType: .fromZooAI), "")
+    XCTAssertEqual(pasteboard.string(forType: .fromYApp), "")
     XCTAssertNil(pasteboard.data(forType: .rtf))
   }
 

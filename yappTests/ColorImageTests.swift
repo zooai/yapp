@@ -1,5 +1,5 @@
 import XCTest
-@testable import ZooAI
+@testable import YApp
 
 class ColorImageTests: XCTestCase {
   func testColorImageFromShortHex() {

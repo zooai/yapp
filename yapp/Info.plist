@@ -43,6 +43,6 @@
 		<string>SelectIntent</string>
 	</array>
 	<key>SUFeedURL</key>
-	<string>https://raw.githubusercontent.com/zeekay/Y/master/appcast.xml</string>
+	<string>https://raw.githubusercontent.com/zeekay/YApp/master/appcast.xml</string>
 </dict>
 </plist>

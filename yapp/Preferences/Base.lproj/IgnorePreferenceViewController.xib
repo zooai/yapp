@@ -5,7 +5,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <customObject id="-2" userLabel="File's Owner" customClass="IgnorePreferenceViewController" customModule="Y" customModuleProvider="target">
+        <customObject id="-2" userLabel="File's Owner" customClass="IgnorePreferenceViewController" customModule="YApp" customModuleProvider="target">
             <connections>
                 <outlet property="view" destination="NB5-c9-ckl" id="2rT-S1-SUg"/>
             </connections>
@@ -256,12 +256,12 @@ By default, some known application-specific types are defined. You can remove th
             </constraints>
             <point key="canvasLocation" x="282" y="117.5"/>
         </customView>
-        <viewController id="gYR-MN-G8y" customClass="IgnoreApplicationsViewController" customModule="Y" customModuleProvider="target">
+        <viewController id="gYR-MN-G8y" customClass="IgnoreApplicationsViewController" customModule="YApp" customModuleProvider="target">
             <connections>
                 <outlet property="ignoredItemsTable" destination="MMx-DY-4si" id="4pJ-bl-v5G"/>
             </connections>
         </viewController>
-        <viewController id="tgV-YG-Zdo" customClass="IgnorePasteboardTypesViewController" customModule="Y" customModuleProvider="target">
+        <viewController id="tgV-YG-Zdo" customClass="IgnorePasteboardTypesViewController" customModule="YApp" customModuleProvider="target">
             <connections>
                 <outlet property="ignoredItemsTable" destination="KN1-GZ-hcI" id="BZH-vc-qwC"/>
             </connections>

@@ -1,5 +1,5 @@
 import XCTest
-@testable import ZooAI
+@testable import YApp
 
 class UserDefaultsTests: XCTestCase {
   let savedIgnoreEvents = UserDefaults.standard.ignoreEvents

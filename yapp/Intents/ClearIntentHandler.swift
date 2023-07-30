@@ -2,9 +2,9 @@ import Intents
 
 @available(macOS 11.0, *)
 class ClearIntentHandler: NSObject, ClearIntentHandling {
-  private var yapp: Y!
+  private var yapp: YApp!
 
-  init(_ yapp: Y) {
+  init(_ yapp: YApp) {
     self.yapp = yapp
   }
 

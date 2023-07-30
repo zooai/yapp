@@ -5,7 +5,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <customObject id="-2" userLabel="File's Owner" customClass="PinsPreferenceViewController" customModule="Y" customModuleProvider="target">
+        <customObject id="-2" userLabel="File's Owner" customClass="PinsPreferenceViewController" customModule="YApp" customModuleProvider="target">
             <connections>
                 <outlet property="itemsController" destination="1Hm-jM-tqp" id="S7J-lD-XXR"/>
                 <outlet property="view" destination="wB8-4N-LTh" id="GOW-zq-BDX"/>
@@ -45,7 +45,7 @@
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                     </tableHeaderCell>
-                                                    <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" title="Text Cell" id="bdM-5c-VDK" customClass="PinComboBoxCell" customModule="Y" customModuleProvider="target">
+                                                    <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" title="Text Cell" id="bdM-5c-VDK" customClass="PinComboBoxCell" customModule="YApp" customModuleProvider="target">
                                                         <font key="font" metaFont="system"/>
                                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>

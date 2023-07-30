@@ -1,5 +1,5 @@
 import XCTest
-@testable import ZooAI
+@testable import YApp
 
 class MenuTests: XCTestCase {
   let clipboard = Clipboard.shared

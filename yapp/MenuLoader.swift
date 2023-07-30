@@ -3,7 +3,7 @@ import AppKit
 // Dummy menu for NSStatusItem which allows to asynchronously
 // execute callback when it's being opened. This gives us an
 // possibility to load other menu in a non-blocking manner.
-// See Y.withFocus() for more details about why this is needed.
+// See YApp.withFocus() for more details about why this is needed.
 class MenuLoader: NSMenu, NSMenuDelegate {
   typealias LoaderCallback = (NSEvent?) -> Void
   private var loader: LoaderCallback!

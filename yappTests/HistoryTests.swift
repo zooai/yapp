@@ -1,5 +1,5 @@
 import XCTest
-@testable import ZooAI
+@testable import YApp
 
 class HistoryTests: XCTestCase {
   let savedSize = UserDefaults.standard.size
@@ -89,7 +89,7 @@ class HistoryTests: XCTestCase {
     XCTAssertEqual(Set(history.all[0].getContents()), Set(contents))
   }
 
-  func testAddingItemFromZooAI() {
+  func testAddingItemFromYApp() {
     let contents = [
       HistoryItemContent(type: NSPasteboard.PasteboardType.string.rawValue, value: "one".data(using: .utf8)!)
     ]
@@ -99,9 +99,9 @@ class HistoryTests: XCTestCase {
 
     let second = HistoryItem(contents: [
       HistoryItemContent(type: NSPasteboard.PasteboardType.string.rawValue, value: "one".data(using: .utf8)!),
-      HistoryItemContent(type: NSPasteboard.PasteboardType.fromZooAI.rawValue, value: "".data(using: .utf8)!)
+      HistoryItemContent(type: NSPasteboard.PasteboardType.fromYApp.rawValue, value: "".data(using: .utf8)!)
     ])
-    second.application = "ZooAI.app"
+    second.application = "YApp.app"
     history.add(second)
 
     XCTAssertEqual(history.all, [second])

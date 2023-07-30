@@ -3,7 +3,7 @@ ENV['VAGRANT_EXPERIMENTAL'] = 'typed_triggers'
 Vagrant.configure('2') do |config|
   config.vm.define 'mojave' do |mj|
     mj.vm.box = 'yzgyyang/macOS-10.14'
-    mj.vm.synced_folder '.', '/Users/vagrant/Desktop/zooAI', disabled: true
+    mj.vm.synced_folder '.', '/Users/vagrant/Desktop/YApp', disabled: true
   end
 
   config.vm.define 'big-sur' do |bs|
