@@ -1,3 +1,5 @@
+<img width="128px" src="/Designs/YBird.gif" alt="Logo" align="left" />
+
 # [Y](https://yapp.io)
 
 [![Downloads](https://img.shields.io/github/downloads/zeekay/yapp/total.svg)](https://github.com/zeekay/yapp/releases/latest)
