@@ -65,18 +65,19 @@ Download the latest version from the
 
 
 ```sh
-curl -sL yapp.io | sh
+git clone https://github.com/zeekay/yapp
 ```
 
 ## Demo
 
 For hackathon demo purposes, manually run `api.py` locally before using Mac app.
+```
+python api.py
+```
 
 Local access to server is available thru /ask and /search endpoints:
 ```
-curl -X POST -H "Content-Type: application/json" -d
-'{"message":[{"role":"user","content":"what day is it?"}]}'
-http://localhost:5000/ask
+curl -X POST -H "Content-Type: application/json" -d '{"message":[{"role":"user","content":"what day is it?"}]}' http://localhost:5000/ask
 ```
 
 ## Usage
