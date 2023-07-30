@@ -45,6 +45,10 @@ Download the latest version from the
 curl -sL yapp.io | sh
 ```
 
+## Demo
+
+For hackathon demo purposes, manually run `api.py` locally before using Mac app.
+
 ## Usage
 
 1. <kbd>SHIFT (⇧)</kbd> + <kbd>COMMAND (⌘)</kbd> + <kbd>C</kbd> to popup Y or click on its icon in the menu bar.
