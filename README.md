@@ -72,6 +72,13 @@ curl -sL yapp.io | sh
 
 For hackathon demo purposes, manually run `api.py` locally before using Mac app.
 
+Local access to server is available thru /ask and /search endpoints:
+```
+curl -X POST -H "Content-Type: application/json" -d
+'{"message":[{"role":"user","content":"what day is it?"}]}'
+http://localhost:5000/ask
+```
+
 ## Usage
 
 1. <kbd>SHIFT (⇧)</kbd> + <kbd>COMMAND (⌘)</kbd> + <kbd>C</kbd> to popup Y or click on its icon in the menu bar.
