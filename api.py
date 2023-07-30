@@ -32,6 +32,7 @@ def ask_assistant():
     messages = data.get("message")
     llm = ChatAnthropic()
 
+    print('DATA',data)
     input = ""
     message_list = []
     for message in messages:
@@ -47,7 +48,7 @@ def ask_assistant():
 
     # Adding SystemMessagePromptTemplate at the beginning of the message_list
     message_list.insert(0, SystemMessagePromptTemplate.from_template(
-        "The following is a friendly conversation between a human and an AI. The AI is talkative and "
+        "The following is a friendly conversation between a human and an AI named Y. The AI is talkative and "
         "provides lots of specific details from its context. The AI will respond with plain string, replace new lines with \\n which can be easily parsed and stored into JSON, and will try to keep the responses condensed, in as few lines as possible."
     ))
 
