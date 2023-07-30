@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>ZooAI</title>
+    <link>https://raw.githubusercontent.com/zoo-labs/zooAI/master/appcast.xml</link>
+    <description>Most recent changes with links to updates.</description>
+    <language>en</language>
+    <item>
+      <title>0.26.5</title>
+      <description>
+        <![CDATA[
+          <ul>
+            <li>Added support for AI.</li>
+          </ul>
+        ]]>
+      </description>
+      <pubDate>2023-06-28</pubDate>
+      <releaseNotesLink>https://github.com/p0deje/ZooAI/releases/tag/0.26.5</releaseNotesLink>
+      <sparkle:minimumSystemVersion>10.14</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/zoo-labs/zooAI/releases/download/0.26.5/ZooAI.app.zip"
+        sparkle:version="20"
+        sparkle:shortVersionString="0.26.5"
+        length="0"
+        type="application/octet-stream"
+      />
+    </item>
+  </channel>
+</rss>
