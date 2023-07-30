@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Y</title>
-    <link>https://raw.githubusercontent.com/zeekay/Y/master/appcast.xml</link>
+    <link>https://raw.githubusercontent.com/zeekay/yapp/master/appcast.xml</link>
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
@@ -21,7 +21,7 @@
       <releaseNotesLink>https://github.com/zeekay/Y/releases/tag/0.26.5</releaseNotesLink>
       <sparkle:minimumSystemVersion>10.14</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/zeekay/YApp/releases/download/0.26.5/YApp.app.zip"
+        url="https://github.com/zeekay/yapp/releases/download/0.26.5/YApp.app.zip"
         sparkle:version="20"
         sparkle:shortVersionString="0.26.5"
         length="0"
