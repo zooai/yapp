@@ -9,7 +9,7 @@ class About {
   private var kossCredits: NSMutableAttributedString {
     let string = NSMutableAttributedString(string: "Donate to save animals! 🏂",
                                            attributes: [NSAttributedString.Key.foregroundColor: NSColor.labelColor])
-    string.addAttribute(.link, value: "https://zoo.ngo", range: NSRange(location: 9, length: 10))
+    string.addAttribute(.link, value: "https://donate.zoo.ngo", range: NSRange(location: 9, length: 10))
     return string
   }
 
