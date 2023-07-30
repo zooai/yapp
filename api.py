@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request
 from dotenv import load_dotenv
-from langchain.chat_models import ChatAnthropic
+from langchain.chat_models.anthropic import ChatAnthropic
 from langchain.chains import ConversationChain
 from langchain.agents import Tool
 from langchain.agents import AgentType
@@ -21,7 +21,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, World!'
+    return 'Y API'
 
 @app.route('/ask', methods=['POST'])
 def ask_assistant():
