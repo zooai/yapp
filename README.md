@@ -32,12 +32,31 @@ Y works on macOS Mojave 10.14 or higher.
 <!-- vim-markdown-toc -->
 
 ## Features
-
 * Lightweight and fast
 * Keyboard-first
 * Secure and private
-* Native UI
+* Native UI for Claude
+* SERP integrated for realtime internet queries
+* Langchain for linking up models
+* Chroma for vector database
 * Open source and free
+
+
+## How it works
+
+Here is an explanation of how the API for YApp works:
+
+The YApp API is designed to allow the YApp native clipboard manager to seamlessly integrate with the Claude AI assistant. When a user copies text to their clipboard in YApp, it sends that text to the /ask endpoint of the API.
+
+The /ask endpoint takes the input text, creates a conversation history by looking at previous messages with the 'user' role, and uses that to construct a prompt for Claude. It uses the LangChain library to simplify the process of chatting with Claude. The prompt contains the chat history and the user's input text.
+
+Claude then generates a response, which is returned by the API as a JSON object. This allows YApp to display Claude's response in the app interface, making it feel like a real-time conversation.
+
+The /search endpoint works similarly, but instead of just chatting with Claude, it uses a tool to run a web search using SerpAPI. This allows Claude to provide more informed responses by looking up additional context on the web when needed.
+
+The API uses Flask to handle the web requests and responses. It connects Claude and LangChain behind the scenes to add conversational AI abilities to YApp. The real-time nature of the API allows YApp to feel very responsive rather than needing to wait for network requests on each user interaction.
+
+Overall, the API enables seamless integration between YApp and Claude using modern AI techniques. It expands the capabilities of YApp's clipboard manager by allowing users to have an intelligent conversation about the content they copy and paste.
 
 ## Install
 
